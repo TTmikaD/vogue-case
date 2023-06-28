@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="main" style="background: #DDD;">
+        <div style="background: #FFF;">
+            <div class="logo">
+                <img src="/img/Vector.png" alt="">
+                <img src="/img/VectorO.svg" alt="">
+                <img src="/img/VectorG.svg" alt="">
+                <img src="/img/VectorU.svg" alt="">
+                <img src="/img/VectorE.svg" alt="">
+            </div>
+        </div>
+        <div class="menu">
+            <div class="item1"></div>
+            <div class="menu-child">
+                <div class="hover"><a href="./main.html">home</a></div>
+                <div class="hover"><a href="./creatAccount.html">man</a></div>
+                <div class="hover"><a href="./creatAccount.html">woman</a></div>
+                <div class="hover"><a href="./creatAccount.html">blog</a></div>
+                <div class="hover"><a href="./creatAccount.html">about us</a></div>
+                <div class="hover"><a href="./contact.html">contact</a></div>
+                <div class="hover">
+                    <a href="./login.html"><img src="/img/search.png" alt=""></a>
+                </div>
+            </div>
+            <div class="item2"></div>
+        </div>
+
+        <!--start form -->
+        <div class="container">
+            <div class="row">
+                <div class="container_form col-5 mb-lg-5" style="padding-top: 60px;">
+                    <fieldset>
+                        <legend class="contact_legend">Create Account</legend>
+                        <div class="line7"></div>
+                        <form action="/action_page.php">
+                            <div class="row">
+                                <div class="d-flex justify-content-around" style="padding-top: 20px;">
+                                    <div>
+                                        <label for="fname">First name:</label><br>
+                                        <input type="text" id="fname" name="fname" value=" "><br>
+                                    </div>
+                                    <div>
+                                        <label for="lname">Last name:</label><br>
+                                        <input type="text" id="lname" name="lname" value=" "><br><br>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <label for="lname">email (*)</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Enter your email..">
+
+                            <label for="lname">Phone (*)</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Enter your phone..">
+
+                            <label for="psw">Password (*)</label>
+                            <input type="text" placeholder="Enter Password" name="psw" required>
+
+                            <label for="psw">Confirm Password (*)</label>
+                            <input type="text" placeholder="Enter Password" name="psw" required>
+
+
+
+                            <input type="submit" value="SIGN UP" style="width: 420px; height: auto; margin-top: 20px;">
+                            <input type="submit" value="BACK TO IN"
+                                style="width: 420px; height: auto; margin-top: 20px;">
+                        </form>
+                    </fieldset>
+                </div>
+            </div>
+        </div>
+        <!-- end form -->
+
+        <div class="row" style="width: auto; background: #333;">
+            <div class="contact">
+                <div class="container">
+                    <div class="logo_down">
+                        <img src="/img/VectorDownV.svg" alt="">
+                        <img src="/img/VectorDownO.svg" alt="">
+                        <img src="/img/VectorDownG.svg" alt="">
+                        <img src="/img/VectorDownU.svg" alt="">
+                        <img src="/img/VectorDownE.svg" alt="">
+                    </div>
+                    <div class="container text-center">
+                        <div class="row row-cols-6">
+                            <div class="col hover_down"><a href="">home</a></div>
+                            <div class="col hover_down"><a href="">man</a></div>
+                            <div class="col hover_down"><a href="">woman</a></div>
+                            <div class="col hover_down"><a href="">blog</a></div>
+                            <div class="col hover_down"><a href="">about us</a></div>
+                            <div class="col hover_down"><a href="">contact</a></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="social pt-3 d-flex justify-content-center gap-3">
+                            <img src="/img/instagram.svg" alt="">
+                            <img src="/img/pinterest-p.svg" alt="">
+                            <img src="/img/twitter.svg" alt="">
+                            <img src="/img/facebook-f.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="address d-flex justify-content-center pt-4 pb-5" style="font-size: 14px;
+                        font-family: Open Sans;
+                        line-height: 20px; color: var(--gray-999, #999);">
+                            <p>© 2012-2019 - Vogue - Fashion & Lifestyle blog</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- linking bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

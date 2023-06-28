@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+main {
+    width: 1920px;
+}
+
+/* logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: auto;
+}
+
+.logo img {
+    width: 29.287px;
+    height: 28.195px;
+    flex-shrink: 0;
+}
+
+
+/* menu */
+.menu {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: auto auto auto;
+    background: #eae9e9;
+}
+
+.menu>div {
+    background: #333;
+    text-align: center;
+}
+
+.menu-child {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    background: #eae9e9 !important;
+}
+
+.menu-child>div {
+    /* Menu Text */
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 600;
+    line-height: 24px;
+    background: #333333;
+    padding: 13px 0;
+}
+
+.item1 {
+    grid-area: 1 / 1 / span 1 / span 1;
+}
+
+.hover img {
+    height: 20px;
+    width: 20px;
+}
+
+.hover:hover {
+    background: #FF3F3F;
+}
+
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* container */
+
+
+.container {
+    margin-top: 50px;
+    width: 1110px;
+    height: auto;
+}
+
+.container>div {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    margin-top: 75px;
+    margin-left: 95px;
+}
+
+.heading p {
+    color: var(--black, #000);
+
+    /* Heading1 */
+    font-size: 40px;
+    font-family: Poppins;
+    line-height: 48px;
+}
+
+.line6 {
+    width: 920px;
+    height: 1px;
+    background: #CCC;
+    margin-left: -75px;
+}
+
+.date_time {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.date_time p {
+    color: var(--gray-999, #999);
+
+    /* Small-text */
+    font-size: 14px;
+    font-family: Open Sans;
+    line-height: 20px;
+}
+
+.picture {
+    margin-left: 95px;
+}
+
+.introduce {
+    margin-top: 40px;
+    margin-left: 95px;
+}
+
+.introduce p {
+    width: 920px;
+}
+
+.creat {
+    margin-left: 95px;
+    margin-top: 20px;
+}
+
+.creat .paragraph1 {
+    color: #000;
+    /* Big text */
+    font-size: 24px;
+    font-family: Poppins;
+    line-height: 36px;
+}
+
+.creat .paragraph2 {
+    width: 920px;
+    color: var(--gray-333, #333);
+
+    /* Body text */
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 24px;
+}
+
+.symbol p {
+    color: var(--black, #000);
+    font-size: 14px;
+    font-family: Open Sans;
+    font-style: italic;
+    line-height: 21px;
+    padding-right: 105px;
+    padding-bottom: 75px;
+}
+
+.symbol {
+    display: flex;
+    justify-content: end;
+}
+.hover_down a {
+    color: rgba(153, 153, 153, 1);
+}
+.hover_down :hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.social:hover {
+    cursor: pointer;
+}
+/* footer */
+
+
+
+.heading_footer {
+    padding-top: 50px;
+    margin-left: 95px;
+}
+
+.heading_footer p {
+    color: var(--black, #000);
+
+    /* Heading2 */
+    font-size: 24px;
+    font-family: Poppins;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.list {
+    margin-left: 125px;
+    padding-bottom: 50px;
+}
+
+.list li {
+    color: var(--gray-333, #333);
+
+    /* Body text */
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 24px;
+}
+
+.logo_down {
+    display: flex;
+    justify-content: center;
+    padding-top: 10.95px;
+}
+
+.logo_down img {
+    width: 25.825px;
+    height: 24.926px;
+}
+
+.menu_down a {
+    color: rgba(153, 153, 153, 1);
+    /* Small-text */
+    font-size: 14px;
+    font-family: Open Sans;
+    line-height: 20px;
+}
+
+.menu_down a:hover {
+    color: #eae9e9;
+}
+
+/* contacthtml  */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background: var(--primary, #FF3F3F);
+    color: white;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    gap: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: rgba(102, 102, 102, 1);
+}
+
+.container_form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.contact_legend {
+    color: var(--primary, #FF3F3F);
+
+    /* Heading1 */
+    font-size: 40px;
+    font-family: Poppins;
+    line-height: 48px;
+}
+
+.line7 {
+    width: 420px;
+    height: 1px;
+    background: #CCC;
+}
+
+/* loginhtml */
